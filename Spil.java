@@ -8,6 +8,10 @@ class Spil{
   private String sort;
   private int number;
   
+  public static int getPosIn(){
+	  return posIn;
+  }
+  
   public Spil(){
     while(!Start.gengur){
     String sort = Start.giveSort();
@@ -17,3 +21,7 @@ class Spil{
   
   
 }
+
+int a = 4;
+Spil b = new Spil();
+b.getPosIn();
